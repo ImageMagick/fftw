@@ -75,7 +75,7 @@ extern "C"
    alternatively compile with -DFFTW_DLL or the equivalent
    command-line flag.  This is not necessary under MinGW/Cygwin, where
    libtool does the imports/exports automatically. */
-#if defined(FFTW_DLL) && (defined(_WIN32) || defined(__WIN32__))
+#if defined(_DLL) && (defined(_WIN32) || defined(__WIN32__))
    /* annoying Windows syntax for shared-library declarations */
 #  if defined(COMPILING_FFTW) /* defined in api.h when compiling FFTW */
 #    define FFTW_EXTERN extern __declspec(dllexport)
