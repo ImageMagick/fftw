@@ -1,0 +1,31 @@
+[DLL]
+
+[INCOMPATIBLE_LICENSE]
+
+[LICENSE]
+COPYING
+
+[DEFINES_DLL]
+COMPILING_FFTW
+
+[DIRECTORIES]
+api
+dft
+dft\scalar
+dft\scalar\codelets
+kernel
+rdft
+rdft\scalar
+rdft\scalar\r2cb
+rdft\scalar\r2cf
+rdft\scalar\r2r
+reodft
+
+[INCLUDES]
+.
+
+[CONFIG_DEFINE]
+/*
+  Define to use the FFTW library
+*/
+#define MAGICKCORE_FFTW_DELEGATE
