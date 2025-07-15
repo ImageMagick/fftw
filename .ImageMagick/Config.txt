@@ -1,30 +1,29 @@
-[DLL]
+[DYNAMIC_LIBRARY]
 
 [INCOMPATIBLE_LICENSE]
 
 [LICENSE]
 COPYING
 
-[DEFINES_DLL]
+[DYNAMIC_DEFINES]
 COMPILING_FFTW
 
-[DIRECTORIES]
-api
-dft
-dft\scalar
-dft\scalar\codelets
-kernel
-rdft
-rdft\scalar
-rdft\scalar\r2cb
-rdft\scalar\r2cf
-rdft\scalar\r2r
-reodft
+[INCLUDE_ARTIFACTS]
+api\fftw3.h -> .
 
-[INCLUDES]
-.
+[EXCLUDES]
+dft\simd\
+doc\
+libbench2\
+mpi\
+rdft\simd\
+simd-support\
+support\
+tests\
+threads\
+tools\
 
-[CONFIG_DEFINE]
+[MAGICK_BASECONFIG_DEFINE]
 /*
   Define to use the FFTW library
 */
