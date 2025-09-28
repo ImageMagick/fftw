@@ -1,5 +1,23 @@
 [DYNAMIC_LIBRARY]
 
+[VERSION]
+3.3.10
+
+[RELEASE_DATE]
+2021-10-14
+
+[PRODUCT_NAME]
+fftw
+
+[COMPANY_NAME]
+Massachusetts Institute of Technology
+
+[URL]
+https://fftw.org/
+
+[COPYRIGHT]
+Copyright (c) 2003 Massachusetts Institute of Technology
+
 [INCOMPATIBLE_LICENSE]
 
 [LICENSE_FILE]
